@@ -33,4 +33,6 @@ async def index():
             INDEX_HTML = HTMLResponse(f.read())
             pass
         pass
+
+    return INDEX_HTML
     pass
